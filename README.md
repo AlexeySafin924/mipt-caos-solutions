@@ -20,7 +20,7 @@ uint16_t satsum(uint16_t x, uint16_t y);
 Запрещено использовать платформо-зависимые или компиляторо-зависимые функции, типы данных с повышенной разрядностью или вещественные типы даннх. 
 
 
-### Problem sm02-1: c/ints/bitset-calc
+### [Problem sm02-1: c/ints/bitset-calc](https://github.com/arovesto/mipt-caos/blob/master/task2_1.c)
 
 Реализуйте калькулятор выражений над множествами в обратной польской записи.
 
@@ -42,7 +42,7 @@ uint16_t satsum(uint16_t x, uint16_t y);
 Для хранения множеств использовать, суммарно, не более 16 байт памяти.
 
 
-### Problem sm02-2: c/texts/utf8-count-symbols
+### [Problem sm02-2: c/texts/utf8-count-symbols](https://github.com/arovesto/mipt-caos/blob/master/task2_2.cpp)
 
 На стандартном потоке ввода подается последовательность символов в кодировке UTF-8.
 
@@ -57,7 +57,7 @@ uint16_t satsum(uint16_t x, uint16_t y);
 Не забывайте о том, что символ перевода строки \n является легальным ASCII-символом.
 
 
-### Problem sm03-0: asm-arm/basics/expression
+### [Problem sm03-0: asm-arm/basics/expression](https://github.com/arovesto/mipt-caos/blob/master/task3_0.asm)
 
 Реализуйте функцию с меткой f, которая вычисляет значение выражения y=Ax2+Bx+C
 
@@ -70,7 +70,7 @@ uint16_t satsum(uint16_t x, uint16_t y);
 Использовать оперативную память запрещено, - можно использовать только регистры.
 
 
-### Problem sm03-1: asm-arm/basics/memaccess
+### [Problem sm03-1: asm-arm/basics/memaccess](https://github.com/arovesto/mipt-caos/blob/master/task3_1.asm)
 
 Реализуйте на языке ассемблера ARM функцию с сигнатурой:
 
@@ -79,7 +79,7 @@ int summ(int x0, int N, int *X)
 Функция должна вычислять значение x0+∑xi, где 0<e;i<N
 
 
-### Problem sm03-2: asm-arm/basics/eqsolution
+### [Problem sm03-2: asm-arm/basics/eqsolution](https://github.com/arovesto/mipt-caos/blob/master/task3_2.asm)
 
 Реализуйте функцию solve, с прототипом
 
@@ -95,7 +95,7 @@ int solve(int A, int B, int C, int D);
 Гарантируется, что на тестовых данных существует целочисленное решение.
 
 
-### Problem sm04-0: asm-arm/structs/simplestruct
+### [Problem sm04-0: asm-arm/structs/simplestruct](https://github.com/arovesto/mipt-caos/blob/master/task4_0.S)
 
 Заданы описание структуры и прототип функции:
 
@@ -118,7 +118,7 @@ calculate(const values_t *values);
 Процессор работает в режиме Little-Endian, используются стандартные соглашения о вызовах gnueabi и стандартные Си-соглашения о выравнивании.
 
 
-### Problem sm04-1: generic/ieee754/classify
+### [Problem sm04-1: generic/ieee754/classify](https://github.com/arovesto/mipt-caos/blob/master/task4_1.asm)
 
 Реализуйте функцию с прототипом:
 
@@ -144,7 +144,7 @@ classify(double *value_ptr);
 При решении допускается использовать только побитовые операции, включая сдвиги.
 
 
-### Problem sm04-2: generic/ieee754/fitint
+### [Problem sm04-2: generic/ieee754/fitint](https://github.com/arovesto/mipt-caos/blob/master/task4_2.asm)
 
 Реализуйте функцию с прототипом:
 
@@ -163,7 +163,7 @@ assert(u32==y);
 Допускается исользовать только побитовые операции.
 
 
-### Problem sm04-3: asm-arm/structs/fieldsort
+### [Problem sm04-3: asm-arm/structs/fieldsort](https://github.com/arovesto/mipt-caos/blob/master/task4_3.asm)
 
 Заданы описание структуры и прототип функции:
 
@@ -182,12 +182,12 @@ sort_by_age(int N, person_t *persons);
 Можно использовать любой алгоритм сортировки, в том числе имеющий сложность O(N2).
 
 
-### Problem sm05-0: asm-arm/basics/globalvars
+### [Problem sm05-0: asm-arm/basics/globalvars](https://github.com/arovesto/mipt-caos/blob/master/task5_0.asm)
 
 Реализуйте функцию calculate, которая вычисляет значение выражения: R=(A*B)+(C*D), где A, B, C, и D - это глобальные переменные типа uint32_t, объявленные во внешнем модуле компиляции, а R, - глобальная переменная типа uint32_t в текущем модуле компиляции.
 
 
-### Problem sm05-1: asm-arm/basics/format_io
+### [Problem sm05-1: asm-arm/basics/format_io](https://github.com/arovesto/mipt-caos/blob/master/task5_1.asm)
 
 Реализуйте программу, которая вычисляет сумму двух целых десятичных чисел. Размер типа равен размеру машинного слова.
 
@@ -196,7 +196,7 @@ sort_by_age(int N, person_t *persons);
 В качестве точки входа можно считать функцию main.
 
 
-### Problem sm05-2: asm-arm/basics/char-filter-digits
+### [Problem sm05-2: asm-arm/basics/char-filter-digits](https://github.com/arovesto/mipt-caos/blob/master/task5_2.asm)
 
 Напишите программу, которая читает со стандартного потока ввода последовательность символов, и выводит только те из них, которые являются десятичными цифрами от 0 до 9.
 
@@ -205,7 +205,7 @@ sort_by_age(int N, person_t *persons);
 В качестве точки входа можно считать функцию main.
 
 
-### Problem sm05-3: asm-arm/basics/reverse-print-chars
+### [Problem sm05-3: asm-arm/basics/reverse-print-chars](https://github.com/arovesto/mipt-caos/blob/master/task5_3.asm)
 
 Реализуйте программу, которая считывает символы со стандартного потока ввода, а затем выводит их в обратном порядке.
 
@@ -214,7 +214,7 @@ sort_by_age(int N, person_t *persons);
 В качестве точки входа можно считать функцию main.
 
 
-### Problem sm06-0: asm-x86/basics
+### [Problem sm06-0: asm-x86/basics](https://github.com/arovesto/mipt-caos/blob/master/task6_0.asm)
 
 Реализуйте две функции на языке ассемблера x86 (IA-32) с сигнатурами:
 
@@ -238,7 +238,7 @@ extern void everyday795(int X, int Y);
 
 
 
-### Problem sm06-1: asm-x86/arrays
+### [Problem sm06-1: asm-x86/arrays](https://github.com/arovesto/mipt-caos/blob/master/task6_1.asm)
 
 Реализуйте функцию на языке ассемблера x86 (IA-32) с сигнатурой:
 
@@ -250,7 +250,7 @@ extern void summ(int N, const int *A, const int *B, int *R);
 Память для хранения массива-результата уже выделена.
 
 
-### Problem sm06-2: asm-x86/mergesort
+### [Problem sm06-2: asm-x86/mergesort](https://github.com/arovesto/mipt-caos/blob/master/task6_2.S)
 
 Реализуйте функцию на языке ассемблера x86 (IA-32) с сигнатурой:
 
@@ -264,7 +264,7 @@ exten void mergesort(int from, int to, const int *in, int *out);
 Используйте память только на стеке, использование кучи запрещено.
 
 
-### Problem sm07-0: asm-x86/fpu-sse/fpu-sse-intro
+### [Problem sm07-0: asm-x86/fpu-sse/fpu-sse-intro](https://github.com/arovesto/mipt-caos/blob/master/task7_0.S)
 
 Реализуйте на языке ассемблера x86 (IA-32) две функции с сигнатурами:
 
@@ -279,7 +279,7 @@ vector_sum(int N, const float *A, const float *B, float *R);
 Вторая функция вычисляет поэлементную сумму R[i]=A[i]+B[i]. Гарантируется, что число N больше нуля и кратно 4, а адреса массивов выровнены в памяти по границе 32 байта. Используйте векторные инструкции для вычисления. 
 
 
-### Problem sm07-1: asm-x86/fpu-sse/trig-macloren-series
+### [Problem sm07-1: asm-x86/fpu-sse/trig-macloren-series](https://github.com/arovesto/mipt-caos/blob/master/task7_1.s)
 
 Реализуйте на языке ассемблера x86 (IA-32) функцию с сигнатурой:
 
@@ -292,7 +292,7 @@ extern double my_sin(double x)
 Для вычислений используйте известный вам из курса Математического анализа способ разложения функции в ряд. Точность результата должна быть маскимально возможной для типа данных double. 
 
 
-### Problem sm07-2: asm-x86/fpu-sse/vector-dot-product
+### [Problem sm07-2: asm-x86/fpu-sse/vector-dot-product](https://github.com/arovesto/mipt-caos/blob/master/task7_2.S)
 
 Реализуйте на языке ассемблера x86 (IA-32) функцию с сигнатурой:
 
@@ -307,7 +307,7 @@ extern float dot_product(int N, const float *A, const float *B);
 Необходимо минимизировать количество выполняемых вычислительных инструкций, используя векторные вычисления. Доступен набор команд SSE 4.2.
 
 
-### Problem sm07-3: generic/sse-matrix-mul
+### [Problem sm07-3: generic/sse-matrix-mul](https://github.com/arovesto/mipt-caos/blob/master/task7_3.c)
 
 Напишите программу умножения двух вещественных матриц типа float.
 
@@ -323,7 +323,7 @@ Input format
 Далее последовательно идут данные для первой и второй матриц.
 
 
-### Problem sm08-0: asm-x86/syscalls/hello-world
+### [Problem sm08-0: asm-x86/syscalls/hello-world](https://github.com/arovesto/mipt-caos/blob/master/task8_0.asm)
 
 Реализуйте на языке ассемблера x86 (IA-32) программу, которая выводит "Hello, World!".
 
@@ -332,7 +332,7 @@ Input format
 Точка входа в программу - функция _start.
 
 
-### Problem sm08-1: asm-x86/syscalls/copy-stream
+### [Problem sm08-1: asm-x86/syscalls/copy-stream](https://github.com/arovesto/mipt-caos/blob/master/task8_1.S)
 
 Реализуйте на языке ассемблера x86 (IA-32) программу, которая копирует содержимое со стандартного потока ввода на стандартный поток вывода.
 
@@ -341,7 +341,7 @@ Input format
 Точка входа в программу - функция _start.
 
 
-### Problem sm08-2: asm-x86/syscalls/reverse-print-lines
+### [Problem sm08-2: asm-x86/syscalls/reverse-print-lines](https://github.com/arovesto/mipt-caos/blob/master/task8_2.S)
 
 Реализуйте на языке ассемблера x86 (IA-32) программу, которая читает со стандартного потока ввода текст, после чего выводит все строки текста в обратном порядке.
 
@@ -350,7 +350,7 @@ Input format
 Точка входа в программу - функция _start.
 
 
-### Problem sm09-0: files-io/read-filter-write
+### [Problem sm09-0: files-io/read-filter-write](https://github.com/arovesto/mipt-caos/blob/master/task9_0.c)
 
 Программе в аргументах командной строки передаются три имени файла. Первый аргумент - входной файл, два остальных - выходные.
 
@@ -365,7 +365,7 @@ Input format
 При возникновении других ошибок ввода-вывода - завершить работу с кодом 3.
 
 
-### Problem sm09-1: files-io/print-list-posix
+### [Problem sm09-1: files-io/print-list-posix](https://github.com/arovesto/mipt-caos/blob/master/task9_1.c)
 
 Программе в аргументе командной строки передается имя файла с бинарными данными в Little-Endian.
 
@@ -386,7 +386,7 @@ struct Item
 Для работы с файлом использовать только низкоуровневый ввод-вывод POSIX.
 
 
-### Problem sm09-2: files-io/sort-file-contents
+### [Problem sm09-2: files-io/sort-file-contents](https://github.com/arovesto/mipt-caos/blob/master/task9_2.c)
 
 Программе в аргументе командной строки передается имя файла с бинарными данными в Little-Endian, который содержит целые знаковые 32-разрядные числа.
 
@@ -399,7 +399,7 @@ struct Item
 Можно создавать произвольное количество вспомогательных файлов в текущем каталоге, суммарный размер которых не превышает двукратного размера исходного файла.
 
 
-### Problem sm09-3: files-io/print-list-winapi
+### [Problem sm09-3: files-io/print-list-winapi](https://github.com/arovesto/mipt-caos/blob/master/task9_3.c)
 
 Задача, аналогичная print-list-posix, но требуется решение под Windows.
 
@@ -422,21 +422,21 @@ struct Item
 Для работы с файлом использовать только низкоуровневый ввод-вывод WinAPI.
 
 
-### Problem sm10-0: posix/filesystem/file-list-summ-size
+### [Problem sm10-0: posix/filesystem/file-list-summ-size](https://github.com/arovesto/mipt-caos/blob/master/task10_0.c)
 
 Программе на стандартном потоке ввода передаётся список имён файлов.
 
 Необходимо посчитать суммарный размер в байтах всех файлов, которые являются регулярными.
 
 
-### Problem sm10-1: posix/filesystem/find-invalid-executables
+### [Problem sm10-1: posix/filesystem/find-invalid-executables](https://github.com/arovesto/mipt-caos/blob/master/task10_1.c)
 
 Программе на стандартном потоке ввода передаётся список имён файлов.
 
 Необходимо вывести на стандартный поток вывода имена "неправильных" выполняемых файлов, то есть файлов, которые отмечены как исполняемые, но при этом они заведомо не могут быть выполнены в системе (не начинаются с корректной строки #!, содержащей запускаемый интерпретатор, и не являются ELF-файлами).
 
 
-### Problem sm10-2: posix/filesystem/manage-symlinks
+### [Problem sm10-2: posix/filesystem/manage-symlinks](https://github.com/arovesto/mipt-caos/blob/master/task10_2.c)
 
 Программе на стандартном потоке ввода передаётся список имён файлов.
 
@@ -445,14 +445,14 @@ struct Item
 Если файл является регулярным, то необходимо создать символическую ссылку в текущем каталоге, приписав в названии файла префикс link_to_.
 
 
-### Problem sm11-0: posix/filesystem/list-recent-files
+### [Problem sm11-0: posix/filesystem/list-recent-files](https://github.com/arovesto/mipt-caos/blob/master/task11_0.c)
 
 Программе передаются два аргумента: имя каталога и три целых числа, - год, месяц и день.
 
 Вывести на стандартный поток вывода список имен файлов указанного каталога, которые были модифицированы начиная с указанной даты (по местному часовому поясу).
 
 
-### Problem sm11-1: posix/time/time-diff
+### [Problem sm11-1: posix/time/time-diff](https://github.com/arovesto/mipt-caos/blob/master/task11_1.c)
 
 Реализуйте программу, которая читает со стандартного потока ввода строки - временные метки в формате:
 
@@ -467,7 +467,7 @@ YYYY-MM-DD HH:mm
 Не забывайте учитывать возможные переводы стрелок зимнего/летнего времени, а также законодательные инициативы по отмене/введению перевода часов на летнее время.
 
 
-### Problem sm11-2: posix/filesystem/find-and-summ-size
+### [Problem sm11-2: posix/filesystem/find-and-summ-size](https://github.com/arovesto/mipt-caos/blob/master/task11_2.c)
 
 Программе в качестве аргумента строки передается имя каталога.
 
@@ -476,7 +476,7 @@ YYYY-MM-DD HH:mm
 Результат вывести на стандартный поток вывода.
 
 
-### Problem sm12-0: posix/mmap/find-substrings-in-file
+### [Problem sm12-0: posix/mmap/find-substrings-in-file](https://github.com/arovesto/mipt-caos/blob/master/task12_0.c)
 
 Программе передаются два аргумента: имя файла, и строка для поиска.
 
@@ -485,7 +485,7 @@ YYYY-MM-DD HH:mm
 На стандартный поток вывода вывести список всех позиций (с нуля) в файле, где втречаются строка.
 
 
-### Problem sm12-1: posix/mmap/print-list-using-mmap
+### [Problem sm12-1: posix/mmap/print-list-using-mmap](https://github.com/arovesto/mipt-caos/blob/master/task12_1.c)
 
 Программе в аргументе командной строки передается имя файла с бинарными данными в Little-Endian.
 
@@ -506,7 +506,7 @@ struct Item
 Используйте отображение содержимого файла на память.
 
 
-### Problem sm12-2: posix/mmap/make-spiral-file
+### [Problem sm12-2: posix/mmap/make-spiral-file](https://github.com/arovesto/mipt-caos/blob/master/task12_2.c)
 
 Программе передаются три аргумента: имя файла, положительное целое число N - размер квадратной матрицы, и положительное число W - ширина клетки матицы в символах.
 
@@ -519,14 +519,14 @@ struct Item
 Можно использовать функции форматного вывода для преобразования числа в строку.
 
 
-### Problem sm13-0: posix/fork/test-proc-limit
+### [Problem sm13-0: posix/fork/test-proc-limit](https://github.com/arovesto/mipt-caos/blob/master/task13_0.c)
 
 Определите экспериментальным способом, какое максимальное колчичество процессов можно запустить с установленными в ejudge лимитами.
 
 Запрещается использовать getrlimit, и другие явные способы определения ограничений.
 
 
-### Problem sm13-1: posix/fork/proc-print-numbers
+### [Problem sm13-1: posix/fork/proc-print-numbers](https://github.com/arovesto/mipt-caos/blob/master/task13_1.c)
 
 Программе передается аргумент - целое число N > 0.
 
@@ -539,7 +539,7 @@ struct Item
 Внимание! В этой задаче будет сравнение с учетом пробельных символов. Между числами должен быть ровно один пробел, а завершается строка символом перевода строки.
 
 
-### Problem sm13-2: posix/fork/proc-count-words
+### [Problem sm13-2: posix/fork/proc-count-words](https://github.com/arovesto/mipt-caos/blob/master/task13_2.c)
 
 На стандартном потоке ввода задается строка текста, которая состоит слова (последовательности непробельных символов), между которыми может быть произвольное количество пробельных символов, включая перевод строки.
 
@@ -554,7 +554,7 @@ struct Item
 Размер каждого слова не превышает 4096 байт.
 
 
-### Problem sm14-0: posix/exec/exec-python
+### [Problem sm14-0: posix/exec/exec-python](https://github.com/arovesto/mipt-caos/blob/master/task14_0.c)
 
 Программе на стандартный поток ввода задается некоторое арифметическое выражение в синтаксисе языка python3.
 
@@ -563,7 +563,7 @@ struct Item
 Использовать дополнительные процессы запрещено.
 
 
-### Problem sm14-1: posix/exec/exec-gcc
+### [Problem sm14-1: posix/exec/exec-gcc](https://github.com/arovesto/mipt-caos/blob/master/task14_1.c)
 
 Программе на стандартном потоке ввода задается выражение в синтаксисе языка Си.
 
