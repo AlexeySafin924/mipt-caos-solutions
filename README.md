@@ -7,7 +7,7 @@
 Отсутствуют задачи 11_3 и 11_4 14_2 из курса. Ассемблерный код можно копировать, меня названия регистров и меток, плагиат это не чекает.
 
 
-Problem sm02-0: c/ints/satsum
+### Problem sm02-0: c/ints/satsum
 
 Реализовать функцию с прототипом:
 
@@ -20,7 +20,7 @@ uint16_t satsum(uint16_t x, uint16_t y);
 Запрещено использовать платформо-зависимые или компиляторо-зависимые функции, типы данных с повышенной разрядностью или вещественные типы даннх. 
 
 
-Problem sm02-1: c/ints/bitset-calc
+### Problem sm02-1: c/ints/bitset-calc
 
 Реализуйте калькулятор выражений над множествами в обратной польской записи.
 
@@ -41,7 +41,8 @@ Problem sm02-1: c/ints/bitset-calc
 
 Для хранения множеств использовать, суммарно, не более 16 байт памяти.
 
-Problem sm02-2: c/texts/utf8-count-symbols
+
+### Problem sm02-2: c/texts/utf8-count-symbols
 
 На стандартном потоке ввода подается последовательность символов в кодировке UTF-8.
 
@@ -56,7 +57,7 @@ Problem sm02-2: c/texts/utf8-count-symbols
 Не забывайте о том, что символ перевода строки \n является легальным ASCII-символом.
 
 
-Problem sm03-0: asm-arm/basics/expression
+### Problem sm03-0: asm-arm/basics/expression
 
 Реализуйте функцию с меткой f, которая вычисляет значение выражения y=Ax2+Bx+C
 
@@ -69,7 +70,7 @@ Problem sm03-0: asm-arm/basics/expression
 Использовать оперативную память запрещено, - можно использовать только регистры.
 
 
-Problem sm03-1: asm-arm/basics/memaccess
+### Problem sm03-1: asm-arm/basics/memaccess
 
 Реализуйте на языке ассемблера ARM функцию с сигнатурой:
 
@@ -78,7 +79,7 @@ int summ(int x0, int N, int *X)
 Функция должна вычислять значение x0+∑xi, где 0<e;i<N
 
 
-Problem sm03-2: asm-arm/basics/eqsolution
+### Problem sm03-2: asm-arm/basics/eqsolution
 
 Реализуйте функцию solve, с прототипом
 
@@ -94,7 +95,7 @@ int solve(int A, int B, int C, int D);
 Гарантируется, что на тестовых данных существует целочисленное решение.
 
 
-Problem sm04-0: asm-arm/structs/simplestruct
+### Problem sm04-0: asm-arm/structs/simplestruct
 
 Заданы описание структуры и прототип функции:
 
@@ -117,7 +118,7 @@ calculate(const values_t *values);
 Процессор работает в режиме Little-Endian, используются стандартные соглашения о вызовах gnueabi и стандартные Си-соглашения о выравнивании.
 
 
-Problem sm04-1: generic/ieee754/classify
+### Problem sm04-1: generic/ieee754/classify
 
 Реализуйте функцию с прототипом:
 
@@ -143,7 +144,7 @@ classify(double *value_ptr);
 При решении допускается использовать только побитовые операции, включая сдвиги.
 
 
-Problem sm04-2: generic/ieee754/fitint
+### Problem sm04-2: generic/ieee754/fitint
 
 Реализуйте функцию с прототипом:
 
@@ -162,7 +163,7 @@ assert(u32==y);
 Допускается исользовать только побитовые операции.
 
 
-Problem sm04-3: asm-arm/structs/fieldsort
+### Problem sm04-3: asm-arm/structs/fieldsort
 
 Заданы описание структуры и прототип функции:
 
@@ -181,12 +182,12 @@ sort_by_age(int N, person_t *persons);
 Можно использовать любой алгоритм сортировки, в том числе имеющий сложность O(N2).
 
 
-Problem sm05-0: asm-arm/basics/globalvars
+### Problem sm05-0: asm-arm/basics/globalvars
 
 Реализуйте функцию calculate, которая вычисляет значение выражения: R=(A*B)+(C*D), где A, B, C, и D - это глобальные переменные типа uint32_t, объявленные во внешнем модуле компиляции, а R, - глобальная переменная типа uint32_t в текущем модуле компиляции.
 
 
-Problem sm05-1: asm-arm/basics/format_io
+### Problem sm05-1: asm-arm/basics/format_io
 
 Реализуйте программу, которая вычисляет сумму двух целых десятичных чисел. Размер типа равен размеру машинного слова.
 
@@ -195,7 +196,7 @@ Problem sm05-1: asm-arm/basics/format_io
 В качестве точки входа можно считать функцию main.
 
 
-Problem sm05-2: asm-arm/basics/char-filter-digits
+### Problem sm05-2: asm-arm/basics/char-filter-digits
 
 Напишите программу, которая читает со стандартного потока ввода последовательность символов, и выводит только те из них, которые являются десятичными цифрами от 0 до 9.
 
@@ -204,7 +205,7 @@ Problem sm05-2: asm-arm/basics/char-filter-digits
 В качестве точки входа можно считать функцию main.
 
 
-Problem sm05-3: asm-arm/basics/reverse-print-chars
+### Problem sm05-3: asm-arm/basics/reverse-print-chars
 
 Реализуйте программу, которая считывает символы со стандартного потока ввода, а затем выводит их в обратном порядке.
 
@@ -213,7 +214,7 @@ Problem sm05-3: asm-arm/basics/reverse-print-chars
 В качестве точки входа можно считать функцию main.
 
 
-Problem sm06-0: asm-x86/basics
+### Problem sm06-0: asm-x86/basics
 
 Реализуйте две функции на языке ассемблера x86 (IA-32) с сигнатурами:
 
@@ -237,7 +238,7 @@ extern void everyday795(int X, int Y);
 
 
 
-Problem sm06-1: asm-x86/arrays
+### Problem sm06-1: asm-x86/arrays
 
 Реализуйте функцию на языке ассемблера x86 (IA-32) с сигнатурой:
 
@@ -249,7 +250,7 @@ extern void summ(int N, const int *A, const int *B, int *R);
 Память для хранения массива-результата уже выделена.
 
 
-Problem sm06-2: asm-x86/mergesort
+### Problem sm06-2: asm-x86/mergesort
 
 Реализуйте функцию на языке ассемблера x86 (IA-32) с сигнатурой:
 
@@ -263,7 +264,7 @@ exten void mergesort(int from, int to, const int *in, int *out);
 Используйте память только на стеке, использование кучи запрещено.
 
 
-Problem sm07-0: asm-x86/fpu-sse/fpu-sse-intro
+### Problem sm07-0: asm-x86/fpu-sse/fpu-sse-intro
 
 Реализуйте на языке ассемблера x86 (IA-32) две функции с сигнатурами:
 
@@ -278,7 +279,7 @@ vector_sum(int N, const float *A, const float *B, float *R);
 Вторая функция вычисляет поэлементную сумму R[i]=A[i]+B[i]. Гарантируется, что число N больше нуля и кратно 4, а адреса массивов выровнены в памяти по границе 32 байта. Используйте векторные инструкции для вычисления. 
 
 
-Problem sm07-1: asm-x86/fpu-sse/trig-macloren-series
+### Problem sm07-1: asm-x86/fpu-sse/trig-macloren-series
 
 Реализуйте на языке ассемблера x86 (IA-32) функцию с сигнатурой:
 
@@ -291,7 +292,7 @@ extern double my_sin(double x)
 Для вычислений используйте известный вам из курса Математического анализа способ разложения функции в ряд. Точность результата должна быть маскимально возможной для типа данных double. 
 
 
-Problem sm07-2: asm-x86/fpu-sse/vector-dot-product
+### Problem sm07-2: asm-x86/fpu-sse/vector-dot-product
 
 Реализуйте на языке ассемблера x86 (IA-32) функцию с сигнатурой:
 
